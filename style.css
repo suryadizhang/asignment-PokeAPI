@@ -1,0 +1,12 @@
+body {font-family: Arial, sans-serif;
+text-align: center;}
+
+.glow {color: #fff;
+text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e43838,
+ 0 0 20px #ca364a, 0 0 25px #ff00ff, 0 0 30px #ff00ff, 0 0 35px #ff00ff;}
+
+.pokemon-container {display: flex;
+justify-content: center;
+margin: 20px 0;}
+
+img { max-width: 250px;} /*set maximum width of image to 250px*/
