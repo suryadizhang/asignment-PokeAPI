@@ -12,7 +12,7 @@ document.getElementById("search-button").addEventListener("click",async()=>
         //if the input is empty, display an error message//
         container.innerHTML = "<p class='error'>Please enter a Pokémon name or ID</p>";
         return;
-    }
+        }
     try {
         //fetch the Pokémon data from the API and make the input data to lower case//
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${input.toLowerCase()}`);
