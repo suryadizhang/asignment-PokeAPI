@@ -47,12 +47,12 @@ function displayPokemon(data) {
 
     // Display the Pokémon data in the container
     container.innerHTML = `
-        <div class="pokemon-card">
+        <section class="pokemon-card">
             <h2>${pokemonName}</h2>
             <img src="${pokemonImage}" alt="${pokemonName}" />
             <p><strong>Types:</strong> ${pokemonTypes}</p>
             <p><strong>Abilities:</strong> ${pokemonAbilities}</p>
             <p><strong>Stats:</strong> ${pokemonStats}</p>
-        </div>
+        </section>
     `;
 }
